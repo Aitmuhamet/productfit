@@ -17,7 +17,7 @@
   --shadow: 0px 4px 4px rgb(var(--green-rgb), var(--opacity-05));
   --shadow-card: 0px 15px 15px rgb(var(--green-rgb), var(--opacity-05));
   --shadow-btn: 0px 5px 10px rgb(var(--green-rgb), var(--opacity-05));
-  
+  --gradien: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);  
   --border: 1px solid var(--black);
 }
 /* icons */
@@ -203,6 +203,32 @@ body{
 .tabs .nav-tabs{
   border-bottom: none;
 }
+/* products */
+.products{
+  width: 100%;
+  padding: 120px 0;
+}
+.btn-all-project,
+a.btn-all-project:hover{
+  min-width: 233px;
+  padding: 25px 10px;
+  display: inline-flex;
+  justify-content: center;
+  border: 1px solid var(--green);
+  box-shadow: var(--shadow-btn);
+  color: var(--green);
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.products-item{
+  min-height: 100px;
+  background: --;
+}
+
 
 @media (max-width: 1199.9px){
   .tabs .nav a{
